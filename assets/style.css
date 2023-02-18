@@ -33,6 +33,7 @@
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(6, 1fr);
+        transition: 2s;
     }
     
     .main_header {
@@ -89,4 +90,8 @@
 #mode-select:checked ~  .main_chats-list{
     
      grid-column: 1 / 6;
+}
+
+#mode-select{
+    display: none;
 }
