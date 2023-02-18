@@ -15,7 +15,9 @@
 
         </div>
         <div class="main">
-            <div class="main_header"></div>
+            <div class="main_header">
+              <h1>  Live Chat </h1>
+            </div>
             <div class="main_chats-list"></div>
             <div class="main_single-chat"></div>
         </div>
