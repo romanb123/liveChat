@@ -73,3 +73,12 @@
       color:white;
         opacity: 0.5;
     }
+
+.left-panel .select-view label{
+    display:block;
+    text-align:right;
+    padding-right:10px;
+}
+.left-panel .select-view img{
+ width:20px;   
+}
