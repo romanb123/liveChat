@@ -82,3 +82,11 @@
 .left-panel .select-view img{
  width:20px;   
 }
+
+#mode-select:checked ~ .main_single-chat{
+    grid-column: 6/ 6;
+}
+#mode-select:checked ~  .main_chats-list{
+    
+     grid-column: 1 / 6;
+}

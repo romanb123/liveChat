@@ -23,13 +23,17 @@
             </div>
         </div>
         <div class="main">
+            <input type="checkbox" id="mode-select">
+            <div class="main_chats-list">
+
+            </div>
             <div class="main_header">
                 <h1> Live Chat </h1>
             </div>
-            <div class="main_chats-list">
-                <input type="checkbox" id="mode-select">
+
+            <div class="main_single-chat">
+
             </div>
-            <div class="main_single-chat"></div>
         </div>
     </div>
 </body>
