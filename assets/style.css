@@ -29,7 +29,6 @@
     .main {
         grid-column: 2 / 6;
         background-color: green;
-    
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(6, 1fr);
@@ -87,10 +86,11 @@
 }
 
 #mode-select:checked ~ .main_single-chat{
+    transition: 500ms;
     grid-column: 6/ 6;
 }
 #mode-select:checked ~  .main_chats-list{
-    
+    transition: 500ms;
      grid-column: 1 / 6;
 }
 
